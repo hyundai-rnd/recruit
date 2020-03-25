@@ -20,8 +20,7 @@
             text-align: center;
             margin: 0px auto;
             width: 100%;
-            height: auto
-            size:auto
+            height: auto size:auto
         }
 
         html {
@@ -198,31 +197,32 @@
         }
 
         table thead th+th {
-            border-left: 1px solid #dedede;
+            border-left: 0px solid #dedede;
 
         }
 
         table tbody td {
-            text-align:center;
-            
-            border-top:1px solid #e4e4e4;
-            padding:22px 20px 20px;}
- 
+            text-align: center;
+
+            border-top: 1px solid #e4e4e4;
+            padding: 22px 20px 20px;
+        }
+
         table tbody td.first {
-            
+
             text-align: left;
             padding-left: 20px;
         }
 
         table tbody td.al_left {
-            border-left:1px solid #e4e4e4;
+            border-left: 1px solid #e4e4e4;
             text-align: left;
             padding-left: 20px;
-            border-right:1px solid #e4e4e4;
+            border-right: 1px solid #e4e4e4;
         }
 
         table tbody td.link_page a {
-           
+
             display: inline-block;
             line-height: 1.2;
             text-align: center;
@@ -311,7 +311,7 @@
             padding: 25px 0 30px;
         }
 
-       
+
 
         footer .company_link:after {
             content: "";
@@ -444,7 +444,7 @@
         }
 
 
-     
+
         .top h2,
         .top p {
             opacity: 0;
@@ -593,7 +593,7 @@
             color: rgb(0, 170, 210) padding-bottom: 9px;
         }
 
-     
+
 
         .recruit_detail .process ol li .font_number {
             display: block;
@@ -665,7 +665,7 @@
         }
 
 
-   
+
         @media all and (max-width:1300px) {
             body {
                 min-width: 320px;
@@ -922,7 +922,7 @@
                 padding-left: 15px;
             }
 
-           
+
 
             #btn_top {
                 right: 10px;
@@ -1096,22 +1096,22 @@
             }
 
             .tb_mobile .tb_hyundai1 h3 {
-                width: 65px;
+                width: auto;
                 color: white;
             }
 
             .tb_mobile .tb_hyundai2 h3 {
-                width: 98px;
+                width: auto;
                 color: white;
             }
 
             .tb_mobile .tb_hyundai3 h3 {
-                width: 82px;
+                width: auto;
                 color: white;
             }
 
             .tb_mobile .tb_hyundai4 h3 {
-                width: 99px;
+                width: auto;
                 color: white;
             }
 
@@ -1283,21 +1283,23 @@
             <div class="inner_wrap">
 
                 <p>
-                    <img class="poster" src="https://i.imgur.com/cKsusfr.jpg" 
-                        alt="현대자동차 채용포스터">
+                    <img class="poster" src="https://i.imgur.com/cKsusfr.jpg" alt="현대자동차 채용포스터">
                 </p>
                 <br>
 
                 <div class="recruit_detail">
                     <dl>
                         <dt>모집부문</dt>
-                        <dd>수소연료전지/배터리/전동화/자율주행시스템&nbsp;기술개발<br>SW제어,&nbsp;차량보안,&nbsp;해석,&nbsp;UX,&nbsp;사업기획/개발,&nbsp;특허개발,&nbsp;기술기획,&nbsp;디자인전략/PR등
+                        <dd>수소연료전지/배터리/전동화/자율주행 시스템 기술 개발&nbsp;
+                            <br>첨단소재 및 친환경 에너지 기술
+                            개발<br>SW제어,&nbsp;차량보안,&nbsp;해석,&nbsp;UX,&nbsp;<br>사업기획/개발,&nbsp;특허개발,&nbsp;기술기획,&nbsp;디자인전략/PR
+                            등
                             <em class="font_number"></em></dd>
                     </dl>
 
                     <dl>
                         <dt>지원대상</dt>
-                        <dd>관련 경력 보유자 및 박사 학위 소지자(예정자) <em class="font_number"></em></dd>
+                        <dd>관련 경력 보유자 또는 박사 학위 소지자(예정자 포함) <em class="font_number"></em></dd>
                     </dl>
 
 
@@ -1313,12 +1315,12 @@
                     </dl>
                     <dl>
                         <dt>접수방법</dt>
-                        <dd>현대자동차 채용홈페이지 온라인 지원<em class="font_number"></em>&nbsp;&nbsp;&nbsp; <td id="abc" ><a type="button"
-                            style="color: rgb(0, 170, 210)"; 
-                            href="http://recruit.hyundai.com/hfront/webapply/applyList.do?sort=2"
-                            target="_blank">바로가기</a></dd>
-                        
-                            
+                        <dd>현대자동차 채용홈페이지 온라인 지원<em class="font_number"></em>&nbsp;&nbsp;&nbsp; <td id="abc"><a
+                                    type="button" style="color: rgb(0, 170, 210)" ;
+                                    href="http://recruit.hyundai.com/hfront/webapply/applyList.do?sort=2"
+                                    target="_blank">바로가기</a></dd>
+
+
                         </dd>
                     </dl>
                 </div>
@@ -1334,305 +1336,691 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                
+                                <!---수소연료전지-->
                                 <tr>
-                                    <td rowspan="5" class="first"><strong>수소연료전지 / 배터리 / 전동화 <br> 자율주행 시스템 기술개발</strong>
+                                    <td style="font-size: large;" rowspan="16" class="first"><strong>
+                                            수소연료전지<br>
+                                            배터리<br>
+                                            전동화<br>
+                                            자율주행<br>
+                                            시스템 기술개발<br>
+                                        </strong>
                                     </td>
-
-                                    <td class="al_left">연료전지 셀 / 스택 설계</td>
+                                </tr>
+                                <tr>
+                                    <td class="al_left">연료전지 셀 / 스택 및 슈퍼캡 설계</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=48"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">MEA 설계</td>
+                                    <td class="al_left">수소저장시스템 설계</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세보기</a></td>
-                                </tr>
-                                <tr>
-
-                                    <td class="al_left">연료전지 운정장치 설계</td>
-                                    <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세보기</a></td>
-                                </tr>
-                                <tr>
-
-                                    <td class="al_left">리튬배터리 설계</td>
-                                    <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세보기</a></td>
-                                </tr>
-                                <tr>
-
-                                    <td class="al_left">차세대 배터리 설계</td>
-                                    <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세보기</a></td>
-                                </tr>
-                               
-                                <tr>
-                                    <td rowspan="5" class="first"><strong>SW제어 / 차량보안 / 해석 / UX </strong></td>
-
-                                    <td class="al_left">C/C++, 웹프론트, 서버/백앤드, Linux/Unix</td>
-                                    <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=49"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
                                     <td class="al_left">연료전지 운전장치 설계</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=50"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">리튬배너리설계</td>
+                                    <td class="al_left">연료전지시스템 평가 및 스택 평가/진단기술 개발</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=51"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">B2C</td>
+                                    <td class="al_left">MEA 설계 및 수소 신기술 개발</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=53"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">QA</td>
+                                    <td class="al_left">차세대배터리 개발</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=82"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=39"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">리튬배터리 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=38"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+
+                                <tr>
+
+                                    <td class="al_left">배터리시스템 사양/구조/전장 설계 및 성능 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=32"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">배터리 제어 및 BMS 설계</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=37"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">환경차 구동모터 전자기 설계</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=33"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">전력변환 부품용 패키지/기구 설계</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=34"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">전력변환 부품 전자파 설계</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=35"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">구동시스템 설계 (모터/인버터)</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=36"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">상용 환경차 운전성/동력성능 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=41"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">자율주행 센서퓨전 기술 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=31"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+
+
+
+
+
+
+
+
+                                <tr>
+                                    <td style="font-size: large;" rowspan="10" class="first"><strong>
+                                            첨단소재 및 친환경 에너지 기술 개발
+                                        </strong></td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="al_left">차세대 에너지 저장기술 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=55"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+
+
+                                <tr>
+
+                                    <td class="al_left">전기화학 촉매 전극 요소 기술 연구</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=56"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">자동차 배기가스 저감 촉매 기술 및 시스템 연구</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=57"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">저탄소 수소 생산</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=58"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">순환형 수소 저장 기술</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=59"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">차량 보안 기술 적용 스핀 소재 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=60"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">센서 소자 연구</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=61"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">차세대 표면제어 공정 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=62"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">뉴로모픽 소자 및 회로 연구</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=63"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+
+
+
+
+
+
+
+                                <tr>
+                                    <td style="font-size: large;" rowspan="9" class="first"><strong>
+                                            SW 제어<br>
+                                            차량보안<br>
+                                            성능/해석<br>
+                                            UX
+                                        </strong></td>
+
+
+                                </tr>
+                                <tr>
+                                    <td class="al_left">연료전지시스템 제어 SW 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=52"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">바디시스템제어설계</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=30"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">상용차 제어기 SW 검증</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=42"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">상용 차량 사이버 보안 아키텍처 개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=40"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">CAT 활용 차량 NVH 평가개발 </td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=27"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">자율주행차 능수동 통합안전 해석 </td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=28"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">EV 모터시스템 및 NVH 해석</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=29"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">제품 UX 전략수립</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=26"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td style="font-size: large;" rowspan="8" class="first"><strong>
+                                            사업기획/개발<br>
+                                            특허개발<br>
+                                            기술기획<br>
+                                            디자인 전략/PR
+
+                                        </strong></td>
+                                </tr>
+                                <tr>
+                                    <td class="al_left">연료전지시스템 사업기획 / 사업개발</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=54"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 
                                 <tr>
-                                    <td rowspan="5" class="first"><strong>사업기획 / 개발, 특허개발,<br> 기술기획, 디자인 전략 /
-                                            PR</strong></td>
 
-                                    <td class="al_left">디자인</td>
+                                    <td class="al_left">특허개발 (변리사-화학/재료분야)</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=91"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=46"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">연료전지 운전장치 설계</td>
+                                    <td class="al_left">특허개발 (표준기술/표준특허)</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=85"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=47"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">리튬배너리설계</td>
+                                    <td class="al_left">R&D 전략기획</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=85"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=45"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">B2C</td>
+                                    <td class="al_left">모듈러 아키텍처 컨피규레이션 개발 </td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=75"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=25"
                                             target="_blank">상세보기</a></td>
                                 </tr>
                                 <tr>
 
-                                    <td class="al_left">QA</td>
+                                    <td class="al_left">디자인전략</td>
                                     <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=55"
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=43"
+                                            target="_blank">상세보기</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td class="al_left">디자인커뮤니케이션(PR)</td>
+                                    <td rowspan="1" class="link_page"><a
+                                            href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=44"
                                             target="_blank">상세보기</a></td>
                                 </tr>
 
 
-
-                                </tr>
+                              
                             </tbody>
                         </table>
                     </div>
                     <div class="tb_mobile">
                         <div class="tb_hyundai1">
-                            <h3><strong>배터리/SW</strong></h3>
+                            <br>
+                            <br>
+                            <br>
+                            <h3 style="font-size: medium"><strong>수소연료전지 / 배터리 / 전동화 / 자율주행 / 시스템 기술개발</strong></h3>
                             <table>
                                 <colgroup>
-                                    <col style="width:24%;" />
-                                    <col style="width:auto;" />
+
+                                    <col style="width:70%;" />
                                     <col style="width:30%;" />
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>분야</th>
                                         <th>직무</th>
                                         <th>상세 내용</th>
                                     </tr>
                                 </thead>
+                                
                                 <tbody>
+                            
                                     <tr>
-                                        <td class="first">연구개발</td>
-                                        <td class="al_left">신규 서비스 기획</td>
+                                        <td class="al_left">연료전지 셀 / 스택 및 슈퍼캡 설계</td>
                                         <td rowspan="1" class="link_page"><a
-                                                href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                                target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=48"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">연구개발</td>
-                                        <td class="al_left">기업영업, 공공영업, 소프트웨어마케팅</td>
+    
+                                        <td class="al_left">수소저장시스템 설계</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=49"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">연구개발</td>
-                                        <td class="al_left">정보보호</td>
+    
+                                        <td class="al_left">연료전지 운전장치 설계</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=50"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">연료전지시스템 평가 및 스택 평가/진단기술 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=51"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">MEA 설계 및 수소 신기술 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=53"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">차세대배터리 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=39"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">리튬배터리 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=38"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+    
+                                    <tr>
+    
+                                        <td class="al_left">배터리시스템 사양/구조/전장 설계 및 성능 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=32"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">배터리 제어 및 BMS 설계</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=37"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">환경차 구동모터 전자기 설계</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=33"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">전력변환 부품용 패키지/기구 설계</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=34"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">전력변환 부품 전자파 설계</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=35"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">구동시스템 설계 (모터/인버터)</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=36"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">상용 환경차 운전성/동력성능 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=41"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">자율주행 센서퓨전 기술 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=31"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
+                        <br>
+                        <br>
+                        <br>
                         <div class="tb_hyundai2">
-                            <h3><strong>배터리/SW</strong></h3>
+                            <h3 style="font-size: medium"><strong>첨단소재 및 친환경 에너지 기술개발</strong></h3>
                             <table>
                                 <colgroup>
-                                    <col style="width:24%;" />
-                                    <col style="width:auto;" />
+                                    <col style="width:70%;" />
                                     <col style="width:30%;" />
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>분야</th>
                                         <th>직무</th>
                                         <th>상세 내용</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="first">연구개발</td>
-                                        <td class="al_left">C/C++, 웹프론트, 서버/백앤드, Linux/Unix</td>
+                                        <td class="al_left">차세대 에너지 저장기술 개발</td>
                                         <td rowspan="1" class="link_page"><a
-                                                href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                                target="_blank">상세 보기</a></td>
-                
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=55"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+
+
+                                    <tr>
+
+                                        <td class="al_left">전기화학 촉매 전극 요소 기술 연구</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=56"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">기획</td>
-                                        <td class="al_left">모바일, PC, 웹</td>
+
+                                        <td class="al_left">자동차 배기가스 저감 촉매 기술 및 시스템 연구</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=57"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">영업</td>
-                                        <td class="al_left">보안 솔루션</td>
+
+                                        <td class="al_left">저탄소 수소 생산</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=58"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">마케팅</td>
-                                        <td class="al_left">B2C</td>
+
+                                        <td class="al_left">순환형 수소 저장 기술</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=59"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">기술</td>
-                                        <td class="al_left">QA</td>
+
+                                        <td class="al_left">차량 보안 기술 적용 스핀 소재 개발</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=60"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td class="al_left">센서 소자 연구</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=61"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td class="al_left">차세대 표면제어 공정 개발</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=62"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td class="al_left">뉴로모픽 소자 및 회로 연구</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=63"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
+                        <br>
+                        <br>
+                        <br>
                         <div class="tb_hyundai3">
-                            <strong>배터리/SW</strong>
+                            <h3 style="font-size: medium"><strong>SW 제어, 차량보안, 성능/해석, UX</strong></h3>
                             <table>
                                 <colgroup>
-                                    <col style="width:24%;" />
-                                    <col style="width:auto;" />
+                                    <col style="width:70%" />
                                     <col style="width:30%;" />
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>분야</th>
                                         <th>직무</th>
                                         <th>상세 내용</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="first">개발</td>
-                                        <td class="al_left">포털, 빅데이터, 모바일, 검색데이터, 플랫폼, 서버</td>
+                                        <td class="al_left">연료전지시스템 제어 SW 개발</td>
                                         <td rowspan="1" class="link_page"><a
-                                                href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                                target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=52"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">기술</td>
-                                        <td class="al_left">분석, 데이터엔지니어, 네트워크엔지니어</td>
+    
+                                        <td class="al_left">바디시스템제어설계</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=30"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">큐레이션</td>
-                                        <td class="al_left">콘텐츠 큐레이터</td>
+    
+                                        <td class="al_left">상용차 제어기 SW 검증</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=42"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">디자인</td>
-                                        <td class="al_left">UI/UX 디자인</td>
+    
+                                        <td class="al_left">상용 차량 사이버 보안 아키텍처 개발</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=40"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">CAT 활용 차량 NVH 평가개발 </td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=27"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">자율주행차 능수동 통합안전 해석 </td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=28"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">EV 모터시스템 및 NVH 해석</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=29"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">제품 UX 전략수립</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=26"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
+                        <br>
+                        <br>
+                        <br>
                         <div class="tb_hyundai4">
-                            <h3><strong>배터리/SW</strong></h3>
+                            <h3 style="font-size: medium"><strong>사업기획/개발, 특허개발, 기술기획, 디자인 전략/PR</strong></h3>
                             <table>
                                 <colgroup>
-                                    <col style="width:24%;" />
-                                    <col style="width:auto;" />
+                                    <col style="width:70%;" />
                                     <col style="width:30%;" />
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>분야</th>
                                         <th>직무</th>
                                         <th>상세 내용</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="first">영업</td>
-                                        <td class="al_left">제휴/마케팅</td>
+                                        <td class="al_left">연료전지시스템 사업기획 / 사업개발</td>
                                         <td rowspan="1" class="link_page"><a
-                                                href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                                target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=54"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+    
+                                        <td class="al_left">특허개발 (변리사-화학/재료분야)</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=46"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">사무</td>
-                                        <td class="al_left">물류, AMD</td>
+    
+                                        <td class="al_left">특허개발 (표준기술/표준특허)</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=47"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                     <tr>
-                                        <td class="first">마케팅</td>
-                                        <td class="al_left">브랜드마케팅</td>
+    
+                                        <td class="al_left">R&D 전략기획</td>
                                         <td rowspan="1" class="link_page"><a
-                                            href="http://recruit.hyundai.com/hfront/webapply/applyView.do?recuYy=2020&recuType=11&recuCls=83"
-                                            target="_blank">상세 보기</a></td>
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=45"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">모듈러 아키텍처 컨피규레이션 개발 </td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=25"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">디자인전략</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=43"
+                                                target="_blank">상세보기</a></td>
+                                    </tr>
+                                    <tr>
+    
+                                        <td class="al_left">디자인커뮤니케이션(PR)</td>
+                                        <td rowspan="1" class="link_page"><a
+                                                href="https://recruit.hyundai.com//hfront/webapply/applyView.do?recuYy=2020&recuType=27&recuCls=44"
+                                                target="_blank">상세보기</a></td>
                                     </tr>
                                 </tbody>
                             </table>
